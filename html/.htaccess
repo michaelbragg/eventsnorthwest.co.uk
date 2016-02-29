@@ -1,0 +1,122 @@
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+# BEGIN GZIP
+<ifmodule mod_deflate.c>
+AddOutputFilterByType DEFLATE application/atom+xml application/javascript application/x-javascript application/json application/rss+xml application/vnd.ms-fontobject application/x-font-ttf application/xhtml+xml application/xml font/opentype image/svg+xml image/x-icon text/css text/html text/plain text/x-component text/xml
+</ifmodule>
+# END GZIP
+
+RewriteCond %{HTTP_HOST} ^traffordbusinessawards\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.traffordbusinessawards\.com$
+RewriteRule ^/?$ "http\:\/\/www\.eventsnorthwest\.co\.uk\/trafford\-business\-awards\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^menmumoftheyear\.co\.uk$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.menmumoftheyear\.co\.uk$
+RewriteRule ^/?$ "http\:\/\/www\.eventsnorthwest\.co\.uk\/men\-mum\-of\-the\-year\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^echoenvironmentawards\.co\.uk$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.echoenvironmentawards\.co\.uk$
+RewriteRule ^/?$ "http\:\/\/www\.eventsnorthwest\.co\.uk\/echo\-environment\-awards\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^echomumoftheyear\.co\.uk$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.echomumoftheyear\.co\.uk$
+RewriteRule ^/?$ "http\:\/\/www\.eventsnorthwest\.co\.uk\/liverpool\-echo\-mum\-of\-the\-year\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^regionalbusinessawards\.co\.uk$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.regionalbusinessawards\.co\.uk$
+RewriteRule ^/?$ "http\:\/\/www\.eventsnorthwest\.co\.uk\/regional\-business\-awards\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^echoprideofmerseyside\.co\.uk$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.echoprideofmerseyside\.co\.uk$
+RewriteRule ^/?$ "http\:\/\/www\.eventsnorthwest\.co\.uk\/pride\-of\-merseyside\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^cheshirebusinessawards\.co\.uk$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.cheshirebusinessawards\.co\.uk$
+RewriteRule ^/?$ "http\:\/\/www\.eventsnorthwest\.co\.uk\/event\-listings\/cheshire\-business\-awards\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^examinerbusinessawards\.co\.uk$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.examinerbusinessawards\.co\.uk$
+RewriteRule ^/?$ "http\:\/\/www\.eventsnorthwest\.co\.uk\/examiner\-business\-awards\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^leaderawards\.co\.uk$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.leaderawards\.co\.uk$
+RewriteRule ^/?$ "http\:\/\/www\.eventsnorthwest\.co\.uk\/leader\-awards\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^carolsfromllandudno\.co\.uk$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.carolsfromllandudno\.co\.uk$
+RewriteRule ^/?$ "http\:\/\/www\.eventsnorthwest\.co\.uk\/carols\-from\-llandudno\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^examinercommunityawards\.co\.uk$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.examinercommunityawards\.co\.uk$
+RewriteRule ^/?$ "http\:\/\/www\.eventsnorthwest\.co\.uk\/examiner\-community\-awards\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^menbusinessoftheyearawards\.co\.uk$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.menbusinessoftheyearawards\.co\.uk$
+RewriteRule ^/?$ "http\:\/\/www\.eventsnorthwest\.co\.uk\/m-e-n\-business\-of\-the\-year\-awards\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^centuryofshanklyevent\.co\.uk$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.centuryofshanklyevent\.co\.uk$
+RewriteRule ^/?$ "http\:\/\/www\.eventsnorthwest\.co\.uk\/century\-of\-shankly\-event\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^100yearsofshankly\.co\.uk$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.100yearsofshankly\.co\.uk$
+RewriteRule ^/?$ "http\:\/\/www\.eventsnorthwest\.co\.uk\/century\-of\-shankly\-event\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^shankly100\.co\.uk$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.shankly100\.co\.uk$
+RewriteRule ^/?$ "http\:\/\/www\.eventsnorthwest\.co\.uk\/century\-of\-shankly\-event\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^dailypostbusinessawards\.co\.uk$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.dailypostbusinessawards\.co\.uk$
+RewriteRule ^/?$ "http\:\/\/www\.eventsnorthwest\.co\.uk\/achievement\-wales\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^dailypostenvironmentawards\.co\.uk$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.dailypostenvironmentawards\.co\.uk$
+RewriteRule ^/?$ "http\:\/\/www\.eventsnorthwest\.co\.uk\/daily\-post\-environment\-awards\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^echosportsawards\.co\.uk$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.echosportsawards\.co\.uk$
+RewriteRule ^/?$ "http\:\/\/www\.eventsnorthwest\.co\.uk\/echo\-sports\-awards\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^dailypostmum\.co\.uk$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.dailypostmum\.co\.uk$
+RewriteRule ^/?$ "http\:\/\/www\.eventsnorthwest\.co\.uk\/daily\-post\-mum\-of\-the\-year\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^dailypostschoolsawards\.co\.uk$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.dailypostschoolsawards\.co\.uk$
+RewriteRule ^/?$ "http\:\/\/www\.eventsnorthwest\.co\.uk\/daily\-post\-schools\-awards\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^manchesterschoolsawards\.co\.uk$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.manchesterschoolsawards\.co\.uk$
+RewriteRule ^/?$ "http\:\/\/www\.eventsnorthwest\.co\.uk\/manchester\-schools\-awards\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^echoschoolsawards\.co\.uk$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.echoschoolsawards\.co\.uk$
+RewriteRule ^/?$ "http\:\/\/www\.eventsnorthwest\.co\.uk\/echo\-schools\-awards\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^manchesterenvironmentawards\.co\.uk$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.manchesterenvironmentawards\.co\.uk$
+RewriteRule ^/?$ "http\:\/\/www\.eventsnorthwest\.co\.uk\/manchester\-environment\-awards\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^menpropertylunch\.co\.uk$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.menpropertylunch\.co\.uk$
+RewriteRule ^/?$ "http\:\/\/www\.eventsnorthwest\.co\.uk\/men\-property\-lunch\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^cheshireschoolsawards\.co\.uk$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.cheshireschoolsawards\.co\.uk$
+RewriteRule ^/?$ "http\:\/\/www\.eventsnorthwest\.co\.uk\/cheshire\-schools\-awards\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^prideofhuddersfield\.co\.uk$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.prideofhuddersfield\.co\.uk$
+RewriteRule ^/?$ "http\:\/\/www\.eventsnorthwest\.co\.uk\/examiner\-community\-awards\/" [R=301,L]
+

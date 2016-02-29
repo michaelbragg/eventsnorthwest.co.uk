@@ -1,0 +1,8 @@
+@charset "UTF-8";
+/* CSS Document */
+.thumb-effect h2, p, #statement h1 { background-color:#FFF; text-shadow:none; font-family: Arial, sans-serif;}
+	.thumb-effect h2 {font-size:22px; margin-top:-22px;}
+
+.thumb-effect:hover img {display:none;}
+.thumb-effect:hover .mask {-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)"; filter: alpha(opacity=100); opacity: 1;}
+.thumb-effect:hover h2, .thumb-effect:hover p, a.thumb-effect:hover h2, a.thumb-effect:hover p {background-color:#FFF;}

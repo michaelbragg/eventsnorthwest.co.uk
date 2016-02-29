@@ -1,0 +1,67 @@
+{
+  "name": "trinitymirror/eventsnorthwest.co.uk",
+  "type": "project",
+  "description": "Website for Events North West",
+  "homepage": "http://www.trinitymirror.com/",
+  "authors": [
+    {
+      "name": "Michael Bragg",
+      "email": "michael@michaelbragg.net",
+      "homepage": "http://www.michaelbragg.net"
+    }
+  ],
+  "keywords": [
+    "wordpress"
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://wpackagist.org"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "johnpbloch/wordpress": "4.4.x",
+    "vlucas/phpdotenv": "2.0.x",
+    "composer/installers": "1.0.x",
+    "wpackagist-plugin/brute-force-login-protection": "1.5.x",
+    "wpackagist-plugin/wp-security-audit-log": "2.2.x",
+    "wpackagist-plugin/safe-redirect-manager": "1.7.x",
+    "wpackagist-plugin/wp-robots-txt": "1.x",
+    "wpackagist-plugin/advanced-custom-fields": "4.4.x",
+    "wpackagist-plugin/column-shortcodes": "0.6.x",
+    "wpackagist-plugin/contact-form-7": "4.4.x",
+    "wpackagist-plugin/easy-testimonials": "1.34.x",
+    "wpackagist-plugin/wp-google-analytics": "1.4.x",
+    "wpackagist-plugin/latest-tweets-widget": "1.1.x",
+    "wpackagist-plugin/nextgen-gallery": "2.1.x",
+    "wpackagist-plugin/platinum-seo-pack": "1.3.x",
+    "wpackagist-plugin/soliloquy-lite": "2.4.0.x",
+    "wpackagist-plugin/rss-just-better": "1.4.x",
+    "wpackagist-plugin/google-sitemap-generator": "4.0.x"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "~2.4",
+    "wp-coding-standards/wpcs": "*",
+    "wpackagist-theme/twentysixteen": "*",
+    "wpackagist-plugin/wordpress-importer": "*",
+    "wpackagist-plugin/debug-bar": "*",
+    "wpackagist-plugin/debug-objects": "*",
+    "wpackagist-plugin/debug-queries": "*",
+    "wpackagist-plugin/query-monitor": "*",
+    "wpackagist-plugin/log-deprecated-notices": "*",
+    "wpackagist-plugin/p3-profiler": "*",
+    "wpackagist-plugin/theme-check": "*",
+    "wpackagist-plugin/rewrite-rules-inspector": "*",
+    "wpackagist-plugin/user-switching": "*",
+    "wpackagist-plugin/vip-scanner": "*"
+  },
+  "extra": {
+    "wordpress-install-dir": "html/wp",
+    "installer-paths": {
+      "html/app/plugins/{$name}/": ["type:wordpress-plugin"],
+      "html/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+      "html/app/themes/{$name}/": ["type:wordpress-theme"]
+    }
+  }
+}

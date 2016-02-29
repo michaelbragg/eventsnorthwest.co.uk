@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*)\.php$ /$1.html [R=301,L]
+</IfModule>
+AddType application/x-httpd-php .html
+DirectoryIndex index.php index.html site-down.php

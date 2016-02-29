@@ -1,0 +1,5 @@
+@charset "UTF-8";
+/* CSS Custom Styles for Wordpress TinyMCE Editor */
+
+.CallToAction {padding:6px 14px 6px 14px; background-color:#BFDEE0; width:auto; cursor:pointer; filter: alpha(opacity=100); opacity: 1.00;}
+	.CallToAction:hover {background-color:#F2AAD0;}
