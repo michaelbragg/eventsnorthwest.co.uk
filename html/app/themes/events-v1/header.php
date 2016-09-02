@@ -222,7 +222,7 @@ jQuery(document).ready(function($) {
 
 </head>
 
-<body>
+<body <?php body_class(); ?>>
 
 <div id="page-wrap" class="container_16"> <!-- START GRID -->
 
