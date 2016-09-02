@@ -10,7 +10,7 @@
 
 <head>
 
-  <meta charset="utf-8">
+  <meta charset="<?php bloginfo( 'charset' ); ?>">
 
   	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
